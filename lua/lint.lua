@@ -47,10 +47,10 @@ M.linters = setmetatable({}, {
 
 
 M.linters_by_ft = {
-  text = {'vale',},
+  -- text = {'vale',},
   json = {'jsonlint',},
-  markdown = {'vale',},
-  rst = {'vale',},
+  -- markdown = {'vale',},
+  -- rst = {'vale',},
   ruby = {'ruby',},
   janet = {'janet',},
   inko = {'inko',},

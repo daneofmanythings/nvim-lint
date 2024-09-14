@@ -33,16 +33,16 @@ local namespaces = setmetatable({}, {
 ---
 ---@type table<string, string[]>
 M.linters_by_ft = {
-  text = {'vale',},
+  -- text = {'vale',},
   json = {'jsonlint',},
-  markdown = {'vale',},
-  rst = {'vale',},
+  -- markdown = {'vale',},
+  -- rst = {'vale',},
   ruby = {'ruby',},
-  janet = {'janet',},
-  inko = {'inko',},
+  -- janet = {'janet',},
+  -- inko = {'inko',},
   clojure = {'clj-kondo',},
-  dockerfile = {'hadolint',},
-  terraform = {'tflint'},
+  -- dockerfile = {'hadolint',},
+  -- terraform = {'tflint'},
 }
 
 
